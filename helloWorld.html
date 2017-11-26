@@ -16,7 +16,23 @@
     //const val1 = <h1>Hello World</h1>;
     //const val2 = document.getElementById('demo')
     //ReactDOM.render(val1, val2);
-    ReactDOM.render(<p>Hello World</p>, document.getElementById('demo'));
+    // ReactDOM.render(<p>Hello World</p>, document.getElementById('demo'));
+    //State less functions
+    const MyFunction = () => {
+        return <div>
+            <h1> Hello World </h1>
+            <p>Stateless functions</p>
+        </div>
+    } 
+    //Calling stateless function in another component
+    class MyComponent extends React.Component{
+        render (){
+            return (
+                <MyFunction />
+            )
+        }
+    }
+ReactDOM.render(<MyComponent />, document.getElementById("demo"));
  
 
 

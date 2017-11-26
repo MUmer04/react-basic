@@ -27,10 +27,15 @@ class HelloWorld extends React.Component{
             return <HelloWorld />
         }
     }
+    const HelloWorld2 = () => {
+    return <div><h1>Hello World 2</h1></div>
+}
 
 ReactDOM.render(<div>
-<Parent1 /> <Parent1 />
+<Parent1 /> <Parent1 /> <HelloWorld2 />
 </div>, document.getElementById("demo"));
+
+//ReactDOM.render(<HelloWorld2 />, document.getElementById("demo"));
 
 </script>    
 </body>
