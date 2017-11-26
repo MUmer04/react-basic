@@ -26,3 +26,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.Button{
+width: 100px;
+height : 30px;
+margin : 10px auto 10px auto;
+background-color :rgb( 10, 91, 182);
+}
+.Padding{
+  padding-top: 50px;
+  text-align: bottom;
+}
