@@ -11,7 +11,11 @@ class Components extends Component{
     }
     render(){
         return(
-            <div className="Button">
+            <div className="main">
+                   <div className="Button">
+            <p>{this.props.A}</p>
+            <p>{this.props.B}</p>
+    
                 <span className="Padding"><button onClick = {this.edit}>Edit</button>
                 <button onClick = {this.remove}>X</button>
                 </span>
@@ -20,6 +24,7 @@ class Components extends Component{
                 <p>{this.props.children}</p>
                 <p>{this.props.img}</p> */}
 
+           </div>
             </div>
         )
     }

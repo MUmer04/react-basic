@@ -26,13 +26,20 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-.Button{
-width: 100px;
-height : 30px;
+div.Button:hover span.Padding
+{
+width: 200px;
+
 margin : 10px auto 10px auto;
 background-color :rgb( 10, 91, 182);
+display: block;
 }
-.Padding{
-  padding-top: 50px;
-  text-align: bottom;
+span.Padding{
+  display: none;
+}
+.main{
+  margin: 10px auto 10px auto;
+  width: 200px;
+  height:100px;
+  background-color: rgb(91, 145, 206);
 }

@@ -29,7 +29,8 @@ class App extends Component {
         <Components text = {"This component has been reused"}>
         This is msg 3
         </Components> */}
-        <Components />
+        <Components A = {<input type = "text"/>} B = {<input type="Password"/>}></Components>
+        
         {/* <Components img = {Img}/> */}
     
       </div>
