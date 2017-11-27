@@ -18,16 +18,17 @@ class State1 extends Component {
     render(){
                 const sObject = {
                 backgroundColor:"blue",
-                width: 100,
+                width: 200,
                 margin: "auto"};
    
           return(
+              <div>
+                <h1>Click the Name</h1>
                 <section style={sObject}>
-          
-                 
                 <h2 onClick={this.changeName.bind(this)}>{this.state.name}</h2>
 
         </section>
+        </div>
     );
 }
 }
