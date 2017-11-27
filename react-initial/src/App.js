@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import Components from './Component.js';
 
+import State1 from './States.js';
 // const Img = <img src = "dd.JPG" alt = "" />
 class App extends Component {
  
@@ -17,7 +18,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Hover over input field
         </p>
 {/*       
         <Components text = {"Hello World"} >
@@ -32,7 +33,7 @@ class App extends Component {
         <Components A = {<input type = "text"/>} B = {<input type="Password"/>}></Components>
         
         {/* <Components img = {Img}/> */}
-    
+        <State1 />
       </div>
     );
   }
