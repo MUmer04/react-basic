@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 // import dd from './dd.JPG';
 import './App.css';
-import Components from './Component.js';
-
-import State1 from './States.js';
+// import Components from './Component.js';
+import Form from './form.js';
+// import State1 from './States.js';
 // const Img = <img src = "dd.JPG" alt = "" />
 class App extends Component {
  
@@ -30,10 +30,11 @@ class App extends Component {
         <Components text = {"This component has been reused"}>
         This is msg 3
         </Components> */}
-        <Components A = {<input type = "text"/>} B = {<input type="Password"/>}></Components>
-        
+        {/* <Components A = {<input type = "text"/>} B = {<input type="Password"/>} C = {<input type="submit" value ="submit"/>}></Components>
+         */}
         {/* <Components img = {Img}/> */}
-        <State1 />
+        {/* <State1 /> */}
+        <Form />
       </div>
     );
   }
