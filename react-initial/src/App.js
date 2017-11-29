@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Counter from './counter.js';
 // import dd from './dd.JPG';
 import './App.css';
 // import Components from './Component.js';
@@ -35,6 +36,7 @@ class App extends Component {
         {/* <Components img = {Img}/> */}
         {/* <State1 /> */}
         <Form />
+        <Counter />
       </div>
     );
   }
