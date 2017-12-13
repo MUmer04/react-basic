@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 class Link extends Component{
     render(){
         const url = '/'
-        + this.props.label.toLowerCase().trim().replace('', '-');
+        + this.props.label.toLowerCase().trim().replace(' ', '');
 
     
         return(
@@ -10,7 +10,7 @@ class Link extends Component{
             <a href = {url}>{this.props.label}</a>
             <br />
         </div>
-        )        
+        );        
     }
 }
 export default Link;

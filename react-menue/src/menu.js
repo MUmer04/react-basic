@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import link from './link.js';
+import Link from './link.js';
 export default class Menu extends Component{
     render(){
         let menus = ['Home', 'About Us','Contact Us','Services','Portfolio'];
@@ -7,8 +7,7 @@ export default class Menu extends Component{
         return(
             <div>
                 {menus.map((x, i) => {
-                return
-                <div key = {i}><link label = {x}/></div>}
+                return <div key = {i}><Link label = {x}/></div>}
                 )
                 }
             </div>
